@@ -1,0 +1,17 @@
+import { render } from '@testing-library/react';
+
+import Input from './input';
+
+describe('Input', () => {
+  it('should render successfully', () => {
+    const { baseElement } = render(<Input placeholder="Enter text" />);
+    expect(baseElement).toBeTruthy();
+  });
+
+  it('should render with value', () => {
+    const { getByDisplayValue } = render(
+      <Input value="test value" placeholder="Test" />
+    );
+    expect(getByDisplayValue('test value')).toBeTruthy();
+  });
+});

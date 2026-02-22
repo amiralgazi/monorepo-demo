@@ -1,0 +1,18 @@
+# Trunk-based development: code ownership by path
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Apps
+/apps/store/     @org/store-team
+/apps/admin/      @org/admin-team
+/apps/docs/       @org/docs-team
+
+# Design system libraries
+/libs/ui/button/  @org/design-system
+/libs/ui/card/    @org/design-system
+/libs/ui/input/   @org/design-system
+/libs/ui/header/  @org/design-system
+/libs/ui/footer/  @org/design-system
+
+# Root config - requires maintainer review
+/nx.json          @org/maintainers
+/package.json     @org/maintainers

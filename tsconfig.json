@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    { "path": "./apps/store" },
+    { "path": "./apps/admin" },
+    { "path": "./apps/docs" },
+    { "path": "./libs/ui/button" },
+    { "path": "./libs/ui/card" },
+    { "path": "./libs/ui/input" },
+    { "path": "./libs/ui/header" },
+    { "path": "./libs/ui/footer" }
+  ]
+}

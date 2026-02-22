@@ -1,0 +1,10 @@
+.container {
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}

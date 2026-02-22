@@ -1,0 +1,10 @@
+{
+  "name": "@demo/admin",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@demo/button": "*",
+    "@demo/input": "*",
+    "@demo/header": "*"
+  }
+}
