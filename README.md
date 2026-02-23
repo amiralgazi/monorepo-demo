@@ -120,6 +120,7 @@ import { MyComponent } from '@demo/my-component';
 | `npx nx affected -t build` | Build affected projects |
 | `npx nx run-many -t build` | Build all projects |
 | `npx nx release` | Version and publish (conventional commits) |
+| `npx nx release --projects=@demo/store` | Release specific project only (use `--projects=X`, not `X` as first arg) |
 
 ## Learn More
 
