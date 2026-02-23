@@ -67,16 +67,19 @@
     }
   },
   "release": {
+    "projectsRelationship": "independent",
     "projects": ["@demo/store", "@demo/admin", "@demo/docs", "@demo/button", "@demo/card", "@demo/input", "@demo/header", "@demo/footer"],
     "releaseTag": {
       "pattern": "release/{projectName}/{version}"
     },
     "changelog": {
       "workspaceChangelog": true,
-      "projectChangelogs": true
+      "projectChangelogs": true,
+      "automaticFromRef": true
     },
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "fallbackCurrentVersionResolver": "disk"
     }
   },
   "generators": {

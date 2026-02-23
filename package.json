@@ -10,7 +10,9 @@
     "test": "nx run-many -t test --all",
     "test:affected": "nx affected -t test",
     "build:affected": "nx affected -t build",
-    "graph": "nx graph"
+    "graph": "nx graph",
+    "release": "nx release --skip-publish",
+    "release:store": "nx release --projects=@demo/store --skip-publish"
   },
   "private": true,
   "dependencies": {
