@@ -12,6 +12,7 @@ export function App() {
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <Card title="Product 1">
             <p>Description of product 1.</p>
+            <p>Example of a product description.</p>
             <Button label="Add to Cart" onClick={() => {}} />
           </Card>
           <Card title="Product 2">
