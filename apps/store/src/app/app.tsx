@@ -13,6 +13,7 @@ export function App() {
           <Card title="Product 1">
             <p>Description of product 1.</p>
             <p>description of product 2.</p>
+            <p>description of product 3.</p>
             <Button label="Add to Cart" onClick={() => {}} />
           </Card>
           <Card title="Product 2">
